@@ -1,0 +1,93 @@
+body{
+    background-color: #2b2c28;
+}
+
+.mood-switch{
+display:flex;
+justify-content: flex-end;
+}
+
+button{
+    background-color: #000000;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.theme-icon{
+width: 20px;
+height: 20px;
+fill: white;
+padding-top: 3px;
+}
+
+.container{
+    width:400px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #000000;
+    align-items: center;
+    margin: 100px auto 0 auto;
+
+}
+
+.top-bar{
+    max-width:400px;
+    height: 38px;
+    background-color: #2b2c28;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.chat{
+width: 200px;
+height: 38px;
+color:whitesmoke;
+background-color:#000000 ;
+border-radius: 8px;
+font-size: 15px;
+border: 0;
+}
+
+.participants{
+    width: 200px;
+    height: 38px;
+    color:#f8f0d5;
+    background-color: #2b2c28;
+    border-radius: 8px;
+    font-size: 15px;
+    box-shadow: none;
+    border: 0;
+}
+    
+.main-bar{
+    max-width:400px;
+    height: 200px;
+    color: white;
+    background-color:#000000 ;
+    padding: 5px;
+}
+
+.light{
+    background-color: white;
+}
+
+.light .container{
+    background-color: #889696;
+}
+
+.light .top-bar, .light .participants{
+    background-color:#b8b8aa ;
+}
+
+.light .main-bar, .light .chat  {
+    background-color:#889696 
+}
+
+.light .theme-icon, .light button{
+    fill:#000000  ;
+    background-color:whitesmoke;
+}
